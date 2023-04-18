@@ -9,6 +9,7 @@ Objects share a common NATS connection and are registered with the connection.
 
 Typical object features:
 - id
+- subscribe / unsubscribe
 - register methods
 - remote request method and reply value
 - register signal handler
