@@ -1,0 +1,11 @@
+version: 3
+
+tasks:
+  client:
+    desc: Run client
+    cmds:
+      - go run cmd/client/main.go
+  server:
+    desc: Run server
+    cmds:
+      - go run cmd/server/main.go
